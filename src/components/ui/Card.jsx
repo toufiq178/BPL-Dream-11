@@ -9,9 +9,9 @@ const Card = ({ player, coins, setCoins, selectedPlayers, setSelectedPlayers }) 
     const newCoins = coins - player.price;
     if (newCoins > 0) {
       setCoins(newCoins);
-      toast.success("Player selected!");
+      toast.success(`${player.name} selected successfully!`);
     } else {
-      toast.error("Not enough coins!");
+      toast.error("Not enough coins to purchase the player!");
       return;
     }
     setSelected(true);

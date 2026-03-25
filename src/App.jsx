@@ -4,6 +4,7 @@ import Hero from "./components/homepage/hero/Hero";
 import { Suspense, useState } from "react";
 import Players from "./components/players/Players";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/homepage/footer/Footer";
 
 
 const fetchPlayersData = fetch("/playerData.json").then(res => res.json())
@@ -22,6 +23,7 @@ function App() {
         <Players fetchPlayersData = {fetchPlayersData} coins={coins} setCoins={setCoins} />
       </Suspense>
 
+      <Footer/>
 
       <ToastContainer/>
     </>
