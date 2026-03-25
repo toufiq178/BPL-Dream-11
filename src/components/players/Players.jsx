@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import Player from "./Player";
 import SelectedPlayers from "./SelectedPlayers";
 
-const Players = ({ fetchPlayersData }) => {
+const Players = ({ fetchPlayersData , coins , setCoins }) => {
   const players = use(fetchPlayersData);
 
   // console.log(playersData.length);
@@ -29,7 +29,7 @@ const Players = ({ fetchPlayersData }) => {
 
 
         {
-            selectedType === "available" ? <Player players={players} /> : <SelectedPlayers/>
+            selectedType === "available" ? <Player players={players} coins={coins} setCoins={setCoins}/> : <SelectedPlayers/>
         }
       
       

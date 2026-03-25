@@ -2,7 +2,7 @@ import React from "react";
 import cricketLogo from "../../../assets/logo.png";
 import dollarImg from "../../../assets/dollar_1.png"
 
-const Navbar = () => {
+const Navbar = ({coins}) => {
   return (
     <div className="navbar bg-base-100   container mx-auto">
       <div className="navbar-start">
@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="">
-          <div className="btn flex justify-between items-center gap-2 text-xl font-bold"> 0 Coin <img src={dollarImg} alt="" /></div>
+          <div className="btn flex justify-between items-center gap-2 text-xl font-bold"> {coins} Coins <img src={dollarImg} alt="" /></div>
         </div>
       </div>
     </div>
