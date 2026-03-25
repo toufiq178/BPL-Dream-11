@@ -39,7 +39,7 @@ const Players = ({ fetchPlayersData, coins, setCoins }) => {
       {selectedType === "available" ? (
         <Player players={players} coins={coins} setCoins={setCoins} selectedPlayers={selectedPlayers} setSelectedPlayers = {setSelectedPlayers} />
       ) : (
-        <SelectedPlayers selectedPlayers={selectedPlayers} />
+        <SelectedPlayers selectedPlayers={selectedPlayers}  setSelectedPlayers = {setSelectedPlayers} coins={coins} setCoins={setCoins}/>
       )}
     </div>
   );
