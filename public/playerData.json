@@ -16,7 +16,7 @@
     "role": "batter",
     "battingStyle": "right-handed",
     "bowlingStyle": "none",
-    "price": 1100000,
+    "price": 1100,
     "img": "https://i.ibb.co.com/Xft4K0nB/Babar-Azam-1.avif"
   },
   {
@@ -26,7 +26,7 @@
     "role": "all-rounder",
     "battingStyle": "left-handed",
     "bowlingStyle": "right-arm fast-medium",
-    "price": 1300000,
+    "price": 1300,
     "img": "https://i.ibb.co.com/3yRhqfCr/84522a0c15e2730e8137ef6162579936.png"
   },
   {
@@ -36,7 +36,7 @@
     "role": "all-rounder",
     "battingStyle": "left-handed",
     "bowlingStyle": "left-arm orthodox spin",
-    "price": 1250000,
+    "price": 1250,
     "img": "https://i.ibb.co.com/twQVPwbk/shakib-glass-25-01-2026.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "role": "bowler",
     "battingStyle": "right-handed",
     "bowlingStyle": "right-arm fast",
-    "price": 1150000,
+    "price": 1150,
     "img": "https://i.ibb.co.com/QF80KPkN/mimf3vas-jasprit-bumrah-625x300-16-March-26.webp"
   },
   {

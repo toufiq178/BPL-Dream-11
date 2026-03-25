@@ -1,9 +1,15 @@
 import React from 'react';
+import SelectedPlayer from './SelectedPlayer';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({selectedPlayers}) => {
+
+    console.log(selectedPlayers);
+    
     return (
-        <div>
-            SelectedPlayers
+        <div className='space-y-4'>
+            {
+                selectedPlayers.map((selectedPlayer , index ) => <SelectedPlayer key={index} selectedPlayer={selectedPlayer}/> )
+            }
         </div>
     );
 };
