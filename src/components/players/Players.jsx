@@ -12,8 +12,8 @@ const Players = ({ fetchPlayersData, coins, setCoins }) => {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   return (
-    <div className="container mx-auto space-y-10">
-      <div className="flex justify-between items-center my-10">
+    <div className="container mx-auto space-y-10 px-5">
+      <div className="flex flex-col sm:flex-row gap-4 justify-between items-center my-10">
         {selectedType === "available" ? (
           <h1 className="font-bold text-2xl">Available Players</h1>
         ) : (

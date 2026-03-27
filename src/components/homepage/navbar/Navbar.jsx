@@ -25,7 +25,8 @@ const Navbar = ({coins}) => {
           </li>
         </ul>
         <div className="">
-          <div className="btn flex justify-between items-center gap-2 text-xl font-bold"> {coins} Coins <img src={dollarImg} alt="" /></div>
+          <div className="flex justify-between items-center gap-2 text-xl font-bold border border-black/10 rounded-lg p-2"> {coins} Coins 
+            <img src={dollarImg} alt="" /></div>
         </div>
       </div>
     </div>
